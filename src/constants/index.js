@@ -1,3 +1,4 @@
+import { r } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -15,10 +16,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  houzz,
+  neutec,
+  rubrik,
   carrent,
   jobit,
   tripguide,
@@ -117,8 +117,8 @@ const technologies = [
 const experiences = [
   {
     title: "Machine Learning Engineer",
-    company_name: "Neutec",
-    icon: starbucks,
+    company_name: "Neutec Inc.",
+    icon: neutec,
     iconBg: "#383E56",
     date: "July 2017 – March 2019",
     points: [
@@ -128,9 +128,9 @@ const experiences = [
   },
   {
     title: "Senior Machine Learning Engineer",
-    company_name: "Neutec",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    company_name: "Neutec Inc.",
+    icon: neutec,
+    iconBg: "#383E56",
     date: "April 2019 – March 2021",
     points: [
       "Employed cluster and CNN to provide real-time image recognition by using Tensorflow, Tensorflow-Serving, and FastAPI, and the service detected cards dealt on the table with 99.99% accuracy.",
@@ -141,9 +141,9 @@ const experiences = [
   },
   {
     title: "Senior Software Engineer, Machine Learning",
-    company_name: "Houzz",
-    icon: shopify,
-    iconBg: "#383E56",
+    company_name: "Houzz Inc.",
+    icon: houzz,
+    iconBg: "#f7f3f2",
     date: "Jan 2022 - Jan 2023",
     points: [
       "Created syncing flows between chat messages on CRM messages and home professionals’ gmail with Google Cloud API, PHP, MySQL and Docker.",
@@ -154,8 +154,8 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Rubrik Inc.",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: rubrik,
+    iconBg: "#f7f3f2",
     date: "May 2023 – Aug 2023",
     points: [
       "Enhanced security of Cluster Cloud Elastic Storage by introducing key-less authentication using Azure Managed Identity, reducing potential access vulnerabilities.",
