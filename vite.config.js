@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     ViteRestart({
       restart: [
-        'my.config.[jt]s',
+        '*.*',
       ]
     })
   ],
