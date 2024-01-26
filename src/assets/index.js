@@ -27,9 +27,7 @@ import neutec from "./company/neutec.png";
 import houzz from "./company/houzz.png";
 import rubrik from "./company/rubrik.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import courseapi from "./courseapi.png";
 
 export {
   logo,
@@ -58,7 +56,5 @@ export {
   neutec,
   houzz,
   rubrik,
-  carrent,
-  jobit,
-  tripguide,
+  courseapi
 };
