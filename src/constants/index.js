@@ -1,4 +1,3 @@
-import { r } from "maath/dist/misc-7d870b3c.esm";
 import {
   mobile,
   backend,
@@ -6,23 +5,25 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
+  python,
+  go,
+  scala,
+  aws,
+  gcp,
+  azure,
+  kubernetes,
+  mysql,
   houzz,
   neutec,
   rubrik,
   carrent,
   jobit,
   tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -61,14 +62,6 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -81,14 +74,6 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
@@ -97,20 +82,44 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Go",
+    icon: go,
+  },
+  {
+    name: "Scala",
+    icon: scala,
+  },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "GCP",
+    icon: gcp,
+  },
+  {
+    name: "Azure",
+    icon: azure,
+  },
+  {
+    name: "Kubernetes",
+    icon: kubernetes,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
   },
 ];
 
